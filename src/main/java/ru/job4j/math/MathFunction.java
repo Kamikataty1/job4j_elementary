@@ -17,5 +17,4 @@ public class MathFunction {
     public static double plus(double first, double second) {
         return first + second;
     }
-
 }
