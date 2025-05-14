@@ -5,7 +5,6 @@ public class MathFunction {
     public static double multiply(double first, double second) {
         return first * second;
     }
-
     public static double delen(double first, double second) {
         return first / second;
     }
