@@ -15,7 +15,7 @@ public class MathCalculator {
     }
 
     public static double sumMultiplyAndRaznAndDelenAndPlus(double first, double second) {
-        return multiply(first, second) + razn(first, second) + delen(first,second) + plus(first, second);
+        return multiply(first, second) + razn(first, second) + delen(first, second) + plus(first, second);
     }
 
     public static void main(String[] args) {
