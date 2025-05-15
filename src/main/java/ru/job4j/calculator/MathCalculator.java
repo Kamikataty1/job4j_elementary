@@ -10,17 +10,17 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double sumRaznAndDelen(double first, double second) {
-        return delen(first, second) + razn(first, second);
+    public static double sumSubsctractAndDivide(double first, double second) {
+        return divide(first, second) + subsctract(first, second);
     }
 
-    public static double sumMultiplyAndRaznAndDelenAndPlus(double first, double second) {
-        return multiply(first, second) + razn(first, second) + delen(first, second) + plus(first, second);
+    public static double sumMultiplyAndSubsctractAndDivideAndPlus(double first, double second) {
+        return multiply(first, second) + subsctract(first, second) + divide(first, second) + plus(first, second);
     }
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + sumRaznAndDelen(10, 20));
-        System.out.println("Результат расчета равен: " + sumMultiplyAndRaznAndDelenAndPlus(10, 20));
+        System.out.println("Результат расчета равен: " + sumSubsctractAndDivide(10, 20));
+        System.out.println("Результат расчета равен: " + sumMultiplyAndSubsctractAndDivideAndPlus(10, 20));
     }
 }
