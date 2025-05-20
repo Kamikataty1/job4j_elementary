@@ -32,7 +32,7 @@ class RectangleTest {
         double width = 24;
         double expected = 25;
         double output = Rectangle.diagonal(length, width);
-        assertThat(output).isEqualTo(expected, withPrecision (0.01));
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
     @Test
