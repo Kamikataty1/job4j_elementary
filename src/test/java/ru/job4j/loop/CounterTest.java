@@ -54,7 +54,7 @@ class CounterTest {
         int start = -8;
         int finish = 4;
         int result = Counter.sumByEven(start, finish);
-        int expected = 6;
+        int expected = -14;
         assertThat(result).isEqualTo(expected);
     }
 
@@ -63,7 +63,7 @@ class CounterTest {
         int start = -500;
         int finish = 10;
         int result = Counter.sumByEven(start, finish);
-        int expected = 30;
+        int expected = -62720;
         assertThat(result).isEqualTo(expected);
     }
 }
